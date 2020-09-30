@@ -1,0 +1,57 @@
+<html>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<style>
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20pt;
+overflow:hidden;
+}
+#myVideo {
+  position: absolute;
+  z-index: 1;
+height:100%;
+}
+.content {
+  padding-top: 5%;
+  color: white;
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  width: 60%;
+}
+hr {
+  color: #0270ed;
+}
+.blue {
+  color: #0270ed;
+}
+.pt16 {
+ font-size:16pt;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color:white;
+}
+@media screen and (max-width: 1080px) {
+	#myVideo {
+		height:100%;
+	}
+}
+</style>
+<!-- The video -->
+<video autoplay muted loop id="myVideo">
+  <source src="universe.mp4" type="video/mp4">
+</video>
+
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+  <center><img src="logo.png"></img><br>  oddeh <span class='blue'>|</span> bendix <span class='blue'>|</span> zeezt <span class='blue'>|</span> ponde <span class='blue'>|</span> henriksen <br><hr><span class='pt16'>post@radixlecti.tk <span class='blue'>//</span> <a href='/ts'>teamspeak</a></span></center>
+</div>
+</html>
